@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ABCApp</string>
+    <string name="search">Search</string>
+    <string name="list_item_subtitle">List item subtitle</string>
+    <string name="fab_icon">⋯</string>
+    <string name="list_stats">List %1$d (%2$d items)</string>
+</resources>

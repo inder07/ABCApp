@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="padding_xsmall">3dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">30dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="twenty_four_dp">24dp</dimen>
+    <dimen name="image_size">56dp</dimen>
+    <dimen name="corner_radius_large">16dp</dimen>
+    <dimen name="corner_radius_small">12dp</dimen>
+    <dimen name="carousel_height">200dp</dimen>
+</resources>
