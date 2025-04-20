@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/eight_dp"
+    android:layout_marginTop="@dimen/three_dp"
+    android:layout_marginEnd="@dimen/eight_dp"
+    android:layout_marginBottom="@dimen/three_dp"
+    android:background="@drawable/rounded_item_background"
+    android:orientation="horizontal"
+    android:padding="@dimen/eight_dp">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="@dimen/list_image_width"
+        android:layout_height="@dimen/list_image_height"
+        android:layout_margin="@dimen/eight_dp"
+        android:background="@drawable/rounded_image_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1" />
+
+    <LinearLayout
+        android:layout_width="@dimen/zero_dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List item title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/tv_item_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List item subtitle"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/tv_sub_item_size" />
+    </LinearLayout>
+</LinearLayout>
